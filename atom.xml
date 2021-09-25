@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Likka&#39;s Web</title>
+  
+  <subtitle>向着风，勇敢奔跑</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-09-25T07:49:38.399Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Likka</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>追杀</title>
+    <link href="http://example.com/2021/09/25/zhui-sha/"/>
+    <id>http://example.com/2021/09/25/zhui-sha/</id>
+    <published>2021-09-25T05:54:14.000Z</published>
+    <updated>2021-09-25T07:49:38.399Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;video</summary>
+        
+      
+    
+    
+    
+    
+    <category term="视频" scheme="http://example.com/tags/%E8%A7%86%E9%A2%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>女士与旅行者</title>
+    <link href="http://example.com/2021/09/25/nu-shi-yu-lu-xing-zhe/"/>
+    <id>http://example.com/2021/09/25/nu-shi-yu-lu-xing-zhe/</id>
+    <published>2021-09-25T05:53:22.000Z</published>
+    <updated>2021-09-25T07:49:32.640Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;video</summary>
+        
+      
+    
+    
+    
+    
+    <category term="视频" scheme="http://example.com/tags/%E8%A7%86%E9%A2%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>现代战争</title>
+    <link href="http://example.com/2021/09/25/xian-dai-zhan-zheng/"/>
+    <id>http://example.com/2021/09/25/xian-dai-zhan-zheng/</id>
+    <published>2021-09-25T05:51:54.000Z</published>
+    <updated>2021-09-25T06:01:13.803Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;video</summary>
+        
+      
+    
+    
+    
+    
+    <category term="视频" scheme="http://example.com/tags/%E8%A7%86%E9%A2%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>脚踩天理，拳打深渊</title>
+    <link href="http://example.com/2021/09/25/jiao-cai-tian-li-quan-da-shen-yuan/"/>
+    <id>http://example.com/2021/09/25/jiao-cai-tian-li-quan-da-shen-yuan/</id>
+    <published>2021-09-25T04:33:36.000Z</published>
+    <updated>2021-09-25T06:02:18.848Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;video</summary>
+        
+      
+    
+    
+    
+    
+    <category term="视频" scheme="http://example.com/tags/%E8%A7%86%E9%A2%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>原神整活_雷电将军：不至于旅行者！不至于！</title>
+    <link href="http://example.com/2021/09/25/yuan-shen-zheng-huo-lei-dian-jiang-jun-bu-zhi-yu-lu-xing-zhe-bu-zhi-yu/"/>
+    <id>http://example.com/2021/09/25/yuan-shen-zheng-huo-lei-dian-jiang-jun-bu-zhi-yu-lu-xing-zhe-bu-zhi-yu/</id>
+    <published>2021-09-25T03:54:18.000Z</published>
+    <updated>2021-09-25T07:13:20.639Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;video</summary>
+        
+      
+    
+    
+    
+    
+    <category term="视频" scheme="http://example.com/tags/%E8%A7%86%E9%A2%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/09/24/hello-world/"/>
+    <id>http://example.com/2021/09/24/hello-world/</id>
+    <published>2021-09-24T14:48:01.362Z</published>
+    <updated>1985-10-26T08:15:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
