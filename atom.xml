@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qicci.gitee.io</id>
     <title>Likkaの小破站</title>
-    <updated>2022-01-26T15:00:55.477Z</updated>
+    <updated>2022-01-26T15:59:28.267Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qicci.gitee.io"/>
     <link rel="self" href="https://qicci.gitee.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://qicci.gitee.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Likkaの小破站</rights>
     <entry>
-        <title type="html"><![CDATA[🚩网站更新记录]]></title>
+        <title type="html"><![CDATA[📣网站更新记录]]></title>
         <id>https://qicci.gitee.io/post/wang-zhan-geng-xin-cao-zuo-ji-lu/</id>
         <link href="https://qicci.gitee.io/post/wang-zhan-geng-xin-cao-zuo-ji-lu/">
         </link>
