@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://qicci.github.io</id>
+    <id>https://qicci.gitee.io</id>
     <title>Likkaの小破站</title>
-    <updated>2022-01-26T13:25:15.755Z</updated>
+    <updated>2022-01-26T14:48:42.728Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://qicci.github.io"/>
-    <link rel="self" href="https://qicci.github.io/atom.xml"/>
+    <link rel="alternate" href="https://qicci.gitee.io"/>
+    <link rel="self" href="https://qicci.gitee.io/atom.xml"/>
     <subtitle>我也想像衣服一样，晒一整天的太阳，和风捉迷藏，与蓝天对话，到了傍晚，有人抱回家</subtitle>
-    <logo>https://qicci.github.io/images/avatar.png</logo>
-    <icon>https://qicci.github.io/favicon.ico</icon>
+    <logo>https://qicci.gitee.io/images/avatar.png</logo>
+    <icon>https://qicci.gitee.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Likkaの小破站</rights>
     <entry>
-        <title type="html"><![CDATA[🚧网站更新操作记录]]></title>
-        <id>https://qicci.github.io/post/wang-zhan-geng-xin-cao-zuo-ji-lu/</id>
-        <link href="https://qicci.github.io/post/wang-zhan-geng-xin-cao-zuo-ji-lu/">
+        <title type="html"><![CDATA[🚩网站更新记录]]></title>
+        <id>https://qicci.gitee.io/post/wang-zhan-geng-xin-cao-zuo-ji-lu/</id>
+        <link href="https://qicci.gitee.io/post/wang-zhan-geng-xin-cao-zuo-ji-lu/">
         </link>
         <updated>2022-01-26T13:08:03.000Z</updated>
+        <summary type="html"><![CDATA[<p>此贴内记录网站更新详情</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>此贴内记录网站更新详情</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[建站心得]]></title>
-        <id>https://qicci.github.io/post/jian-zhan-xin-de/</id>
-        <link href="https://qicci.github.io/post/jian-zhan-xin-de/">
+        <id>https://qicci.gitee.io/post/jian-zhan-xin-de/</id>
+        <link href="https://qicci.gitee.io/post/jian-zhan-xin-de/">
         </link>
         <updated>2022-01-25T13:07:30.000Z</updated>
         <summary type="html"><![CDATA[<p>🐱本次使用的技术包含Css,HTML5,及托管平台CodingPages的服务<br>
@@ -32,8 +36,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://qicci.github.io/post/hello-gridea/</id>
-        <link href="https://qicci.github.io/post/hello-gridea/">
+        <id>https://qicci.gitee.io/post/hello-gridea/</id>
+        <link href="https://qicci.gitee.io/post/hello-gridea/">
         </link>
         <updated>2022-01-23T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
