@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://qicci.github.io</id>
+    <title>Likkaの小破站</title>
+    <updated>2022-01-25T14:05:40.454Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://qicci.github.io"/>
+    <link rel="self" href="https://qicci.github.io/atom.xml"/>
+    <subtitle>我也想像衣服一样，晒一整天的太阳，和风捉迷藏，与蓝天对话，到了傍晚，有人抱回家。</subtitle>
+    <logo>https://qicci.github.io/images/avatar.png</logo>
+    <icon>https://qicci.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Likkaの小破站</rights>
+    <entry>
+        <title type="html"><![CDATA[建站心得]]></title>
+        <id>https://qicci.github.io/post/jian-zhan-xin-de/</id>
+        <link href="https://qicci.github.io/post/jian-zhan-xin-de/">
+        </link>
+        <updated>2022-01-25T13:07:30.000Z</updated>
+        <summary type="html"><![CDATA[<p>🐱本次使用的技术包含Css,HTML5,及托管平台CodingPages的服务<br>
+🤣Gridea的同步已经Error了65次，站长人已在天堂</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>🐱本次使用的技术包含Css,HTML5,及托管平台CodingPages的服务<br>
+🤣Gridea的同步已经Error了65次，站长人已在天堂</p>
+<!-- more -->
+<p>重点!!!跟随教程需要一台至少搭载了Windows10,Linux(Deepin,UOS)等不限的智能终端设备......</p>
+<h2 id="引入概念">引入概念</h2>
+<p>🚀搭建网站需要很多条件<br>
+有很多实现的优秀方案，这里举几个例子</p>
+<h2 id="方案一">🚗方案一</h2>
+<p>自建网站www/，然后用内网穿透工具把指定ip穿透出去，这样别人就可以访问到你的网站<br>
+优点：非常简单且方便，属于新手搭建网站最好的方案<br>
+缺点：市场上绝大部分的内网穿透工具需要付费，少部分免费的穿透工具则限定了带宽和月流量，搭建稍大的网站不但加载缓慢甚至未到月底有可能流量耗尽，使用免费穿透仅仅建议来测试，如果您是付费玩家，请忽略此条缺点<br>
+/Next</p>
+<h2 id="方案二">🚕方案二</h2>
+<p>选购第三方服务器，然后在服务器上搭建www/环境，绝大部分的服务器提供了公网地址，可以自由扩展及使用<br>
+优点：没有带宽和流量和限制（注意：仅一定部分服务器提供无限带宽和流量）<br>
+缺点：需要付费购买服务器，价格因月或年不定，且基于公网地址创建www/环境需要一定的动手能力和计算机知识基础，且服务器提供的公网IP一般都是ipv6地址，正常情况无法直接访问，ipv4地址及对应的域名解析平台又是一笔开销<br>
+/Next</p>
+<h2 id="方案三">🚙方案三</h2>
+<p>使用第三方的codingpage服务，大多数codingpage服务需要实名认证，且限定了www/的容量大小<br>
+优点：无带宽及流量限制，不需要付费<br>
+缺点：需要大量代码基本功知识，例如Github的GIT代码环境，及git扩展出的jekll和hexo服务的对应指令都需要亲自了解，搭建环境时间耗时耗力，且很难解决文档上传和更换机器带来的迁移问题，但一劳永逸<br>
+/Next<br>
+在大家读完这些之后，心中肯定不约而同产生了一个疑惑<br>
+既然这些建站方案都有缺点，那最好的方案是什么呢</p>
+<p>....编辑于2022/1/24，12.03,未完待续</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://qicci.github.io/post/hello-gridea/</id>
+        <link href="https://qicci.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
