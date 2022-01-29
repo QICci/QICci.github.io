@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qicci.gitee.io</id>
     <title>Likkaの小破站</title>
-    <updated>2022-01-26T15:59:28.267Z</updated>
+    <updated>2022-01-29T13:20:00.233Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qicci.gitee.io"/>
     <link rel="self" href="https://qicci.gitee.io/atom.xml"/>
@@ -11,14 +11,28 @@
     <icon>https://qicci.gitee.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Likkaの小破站</rights>
     <entry>
-        <title type="html"><![CDATA[📣网站更新记录]]></title>
+        <title type="html"><![CDATA[网站更新记录]]></title>
         <id>https://qicci.gitee.io/post/wang-zhan-geng-xin-cao-zuo-ji-lu/</id>
         <link href="https://qicci.gitee.io/post/wang-zhan-geng-xin-cao-zuo-ji-lu/">
         </link>
         <updated>2022-01-26T13:08:03.000Z</updated>
-        <summary type="html"><![CDATA[<p>此贴内记录网站更新详情</p>
+        <summary type="html"><![CDATA[<p>此贴内记录网站更新详情<br>
+最新详情：<br>
+2022/1/29下午3:34<br>
+新增 心情加油站，内置部分测试应用<br>
+优化 网页播放器接入Aplayer，源歌单部分替换为QQ音乐<br>
+2022/1/29下午4:32<br>
+优化 测试应用网页显示缩放错误<br>
+优化 告白墙文案显示效果</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>此贴内记录网站更新详情</p>
+        <content type="html"><![CDATA[<p>此贴内记录网站更新详情<br>
+最新详情：<br>
+2022/1/29下午3:34<br>
+新增 心情加油站，内置部分测试应用<br>
+优化 网页播放器接入Aplayer，源歌单部分替换为QQ音乐<br>
+2022/1/29下午4:32<br>
+优化 测试应用网页显示缩放错误<br>
+优化 告白墙文案显示效果</p>
 ]]></content>
     </entry>
     <entry>

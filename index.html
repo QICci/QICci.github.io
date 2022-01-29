@@ -15,6 +15,70 @@
 
   <meta name="description" content="我也想像衣服一样，晒一整天的太阳，和风捉迷藏，与蓝天对话，到了傍晚，有人抱回家" />
 </head>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+</head>
+
+<body>
+    <div class="miniMode">
+        <meting-js id="myaplayer" server="netease" type="playlist" fixed="true" order="default" muted="muted">
+        </meting-js>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<script>
+    function aplayerInit() {
+        var aplayerid = "7264440893";
+        var aplayerserver = "netease";
+        var aplayerorder = "list";
+        var aplayerautoplay = "true";
+        var aplayer = $("#myaplayer");
+        var aplayermutex = "true"
+        aplayer.attr("server", aplayerserver);
+        aplayer.attr("id", aplayerid);
+        aplayer.attr("order", aplayerorder);
+        if (aplayerautoplay == "true")
+            aplayer.attr("autoplay", "true");
+    }
+    aplayerInit();
+</script>
+
+<script src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/Aplayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+<script>
+    function aplayerbtnInit() {
+        var player = document.querySelectorAll('meting-js')[0].aplayer;
+        if(player==undefined)return false;
+        player.lrc.hide();
+        var mbabtn = $("#mbaplayer");
+        if (player.paused == false) {
+            mbabtn.removeClass("fa-play-circle-o");
+            mbabtn.addClass("fa-pause-circle");
+        } else {
+            mbabtn.addClass("fa-play-circle-o");
+            mbabtn.removeClass("fa-pause-circle");
+        }
+    }
+
+    function aplayerPlay() {
+        var player = document.querySelectorAll('meting-js')[0].aplayer;
+        var mbabtn = $("#mbaplayer");
+        if (player.paused == true) {
+            player.play();
+            mbabtn.removeClass("fa-play-circle-o");
+            mbabtn.addClass("fa-pause-circle");
+        } else {
+            player.pause();
+            mbabtn.addClass("fa-play-circle-o");
+            mbabtn.removeClass("fa-pause-circle");
+        }
+    }
+</script>
+
 <body>
   <div class="antialiased flex flex-col min-h-screen" id="app">
 
@@ -36,11 +100,15 @@
       </a>
     
       <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        🚀标签
+        🎫标签
       </a>
     
       <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
         🚝关于
+      </a>
+    
+      <a href="http://101.43.150.150/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        ⛽心情加油站
       </a>
     
       <a href="https://qicci.gitee.io/post/gao-bai-qiang" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
@@ -133,7 +201,7 @@
     
   </div>
   <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
-    <img class="rounded-full object-cover" src="https://qicci.gitee.io/images/avatar.png?v=1643212763630" alt="Likkaの小破站" width="100%" height="100%">
+    <img class="rounded-full object-cover" src="https://qicci.gitee.io/images/avatar.png?v=1643462291636" alt="Likkaの小破站" width="100%" height="100%">
   </div>
 </header>
       
@@ -147,12 +215,19 @@
     <div class="flex-1 order-2 md:order-1">
       <h2 class="text-2xl font-semibold mb-4">
         <a href="https://qicci.gitee.io/post/wang-zhan-geng-xin-cao-zuo-ji-lu/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          📣网站更新记录
+          网站更新记录
         </a>
       </h2>
       <div class="mb-4 text-xs text-gray-500">2022-01-26</div>
       <div class="mb-4 text-gray-500 dark:text-gray-300">
-        <p>此贴内记录网站更新详情</p>
+        <p>此贴内记录网站更新详情<br>
+最新详情：<br>
+2022/1/29下午3:34<br>
+新增 心情加油站，内置部分测试应用<br>
+优化 网页播放器接入Aplayer，源歌单部分替换为QQ音乐<br>
+2022/1/29下午4:32<br>
+优化 测试应用网页显示缩放错误<br>
+优化 告白墙文案显示效果</p>
 
       </div>
       <a href="https://qicci.gitee.io/post/wang-zhan-geng-xin-cao-zuo-ji-lu/" class="btn">
@@ -160,7 +235,7 @@
       </a>
     </div>
     
-      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://qicci.gitee.io/post-images/wang-zhan-geng-xin-cao-zuo-ji-lu.jpeg" alt="📣网站更新记录">
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://qicci.gitee.io/post-images/wang-zhan-geng-xin-cao-zuo-ji-lu.jpeg" alt="网站更新记录">
     
   </div>
 
@@ -214,8 +289,9 @@
 
       
       <footer class="py-12 text-center px-4 md:px-0" v-pre>
-  Powered by Github<br>
-<a href="https://github.com/getgridea/gridea" target="_blank">腾讯云 提供技术支持</a>
+  Powered by Gitee<br>
+<a href="https://github.com/getgridea/gridea" target="_blank">
+腾讯云 提供技术支持</a>
 </footer>
 
     </div>
